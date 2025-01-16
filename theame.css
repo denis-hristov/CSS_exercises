@@ -1,0 +1,50 @@
+theame.css
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+.invitation {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.invitation h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ff7f50;
+    margin-bottom: 20px;
+}
+
+.invitation p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+}
+
+.invitation .date-time {
+    font-weight: bold;
+    color: #ff6347;
+}
+
+.invitation .cta {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff6347;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.invitation .cta:hover {
+    background-color: #ff4500;
+}
