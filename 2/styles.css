@@ -1,0 +1,22 @@
+.grid-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 1px;
+  background-color: #006400; /* тъмно зелено */
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.grid-header {
+  background-color: #228B22; /* средно зелено */
+  padding: 12px;
+  font-weight: bold;
+  border: 1px solid #004d00;
+}
+
+.grid-cell {
+  background-color: #32CD32; /* лайм зелено */
+  padding: 12px;
+  white-space: pre-wrap;
+  border: 1px solid #004d00;
+}
