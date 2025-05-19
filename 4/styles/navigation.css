@@ -1,0 +1,101 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.search{
+    color: #000;
+    padding: 1em 0.4em;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.letter{
+    margin: 0.3em;
+    padding: 0.5em;
+    font-size: 40;
+    font-weight: bold;
+    background-color: #000;
+    color: white;
+}
+
+.logIn{
+    display: flex;
+    flex-direction: row;
+}
+
+.registrate{
+    background-color: #000;
+    color: white;
+    margin-right: 0.5em;
+}
+
+.registrate, .signIn{
+    padding: 0.5em;
+}
+
+.search:hover{
+    background-color: rgb(232, 235, 235);
+}
+
+.registrate:hover, .signIn:hover{
+    background-color: #949494;
+}
+
+.signIn:hover{
+    color: white;
+}
+
+
+
+.main-nav {
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  justify-content: center;
+  padding: 0.5em;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1em 0.4em;
+  font-size: 16px;
+  color: #000;
+}
+
+
+.cuntries {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  justify-content: center;
+  padding: 0.3em;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  background-color: white;
+}
+
+.cuntries a {
+  text-decoration: none;
+  padding: 1em 0.4em;
+  font-size: 14px;
+  color: #333;
+}
+
+.cuntries a:hover, .main-nav a:hover{
+    background-color: rgb(232, 235, 235);
+}
