@@ -125,3 +125,23 @@
   display: flex;
   flex-direction: column;
 }
+
+
+
+.main-news:hover, .main-news-2:hover,
+.left-feature:hover, .right-column:hover, .news-item:hover{
+  h4, h3{
+    text-decoration: underline;
+  }
+  .image::after{
+    opacity: 1;
+  }
+}
+
+.down-news .down-item:hover{
+  text-decoration: underline;
+}
+
+.watched-list p:hover {
+    text-decoration: underline;
+}
