@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="design/global.css">
+</head>
+<body>
+  <header>Client Filter</header>
+
+  <div class="container">
+    <nav>
+      <button>Dashboard</button>
+      <button>Reporting</button>
+    </nav>
+
+    <main>
+      <div class="charts">
+        <div class="chart-box">charts (high charts)</div>
+        <div class="chart-box">charts (high charts)</div>
+        <div class="chart-box">charts (high charts)</div>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>QuestionID</th>
+              <th>QuestionText</th>
+              <th>Answer text - CSV</th>
+              <th>Responses</th>
+            </tr>
+          </thead>
+          <tbody id="data-grid"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <footer>Footer</footer>
+  <script src="script/addDataGrid.js"></script>
+</body>
+</html>
